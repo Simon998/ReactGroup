@@ -12,6 +12,7 @@ function App() {
   }, [])
   return (
     <div className="App">
+      <h1>Names of People</h1>
       <DisplayData names={name}/>
     </div>
   );
