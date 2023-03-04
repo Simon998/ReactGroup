@@ -4,6 +4,7 @@ import DisplayData from './components/Mush/DisplayData';
 import { useEffect, useState } from 'react';
 import Mush from './components/Mush/mush';
 import mydata from './components/Mush/Mush.json';
+import Counter from './components/Mush/Counter';
 function App() {
   const [name, setName] = useState([]);
   useEffect(() => {
@@ -23,6 +24,9 @@ function App() {
             return <Mush {...single} key={single.id} />;
           })}
         </div>
+      </div>
+      <div className='mycounter'>
+        <Counter />
       </div>
     </>
   );
