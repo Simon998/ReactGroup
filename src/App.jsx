@@ -9,7 +9,7 @@ function App() {
   const [name, setName] = useState([]);
   useEffect(() => {
     const results = data.map((names) => names.name);
-    console.log(results);
+    // console.log(results);
     setName(results);
   }, []);
   return (

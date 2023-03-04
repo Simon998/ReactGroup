@@ -1,7 +1,7 @@
 [
   { "id": 1, "name": "Mush", "job": "Junior Developer", "year": "2023" },
   { "id": 2, "name": "Solo", "job": "Junior Developer", "year": "2022" },
-  { "id": 4, "name": "Caleb", "job": "senior Developer", "year": "2021" },
-  { "id": 5, "name": "John", "job": "manager", "year": "2020" },
-  { "id": 6, "name": "Mwangi", "job": "CEO", "year": "2018" }
+  { "id": 3, "name": "Caleb", "job": "senior Developer", "year": "2021" },
+  { "id": 4, "name": "John", "job": "manager", "year": "2020" },
+  { "id": 5, "name": "Mwangi", "job": "CEO", "year": "2018" }
 ]
