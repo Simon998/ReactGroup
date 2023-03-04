@@ -1,5 +1,5 @@
-import './vin.scss';
-let vin = ({ name, job, year }) => {
+import './Vin.scss';
+const Vin = ({ name, job, year }) => {
   return (
     <>
       <div className='box'>
@@ -10,4 +10,4 @@ let vin = ({ name, job, year }) => {
     </>
   );
 };
-export default vin;
+export default Vin;

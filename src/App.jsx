@@ -5,6 +5,8 @@ import { useEffect, useState } from 'react';
 import Mush from './components/Mush/mush';
 import mydata from './components/Mush/Mush.json';
 import Counter from './components/Mush/Counter';
+import Counter1 from "./components/vincent/counter"
+
 function App() {
   const [name, setName] = useState([]);
   useEffect(() => {
@@ -27,6 +29,7 @@ function App() {
       </div>
       <div className='mycounter'>
         <Counter />
+        <Counter1/>
       </div>
     </>
   );
